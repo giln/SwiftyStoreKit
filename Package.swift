@@ -5,7 +5,7 @@ let package = Package(
     name: "SwiftyStoreKit",
     // platforms: [.iOS("8.0"), .macOS("10.10"), tvOS("9.0"), .watchOS("2.0")],
     products: [
-        .library(name: "SwiftyStoreKit", targets: ["SwiftyStoreKit"])
+        .library(name: "SwiftyStoreKit", type: .dynamic, targets: ["SwiftyStoreKit"])
     ],
     targets: [
         .target(
